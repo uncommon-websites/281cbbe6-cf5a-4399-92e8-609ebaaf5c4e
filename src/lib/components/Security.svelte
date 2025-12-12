@@ -1,48 +1,35 @@
 <section class="max-w-[1200px] mx-auto px-4 py-20 border-t border-gray-100">
-    <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-notion-black mb-12">
-        Built with data security in mind.
-    </h2>
-
-    <div class="grid md:grid-cols-3 gap-8">
-        <div class="flex items-start gap-4">
-            <div class="w-12 h-12 flex-shrink-0">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="48" height="48" rx="8" fill="#E0F2FE"/>
-                    <path d="M24 10L12 15V22C12 29.5 17.1 36.4 24 38C30.9 36.4 36 29.5 36 22V15L24 10Z" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="white"/>
-                    <path d="M24 18V28" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                    <path d="M24 28L28 24" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
+    <div class="max-w-3xl mx-auto text-center">
+        <h2 class="text-3xl md:text-4xl font-bold tracking-tight text-notion-black mb-6">
+            Built by someone who's been there
+        </h2>
+        <p class="text-lg text-notion-gray mb-8 leading-relaxed">
+            Maxi is a native Spanish speaker who mastered Swedish and German using the listen-first, spaced-recall approach. He's building Formula 100 to share the methods that actually worked for him.
+        </p>
+        
+        <div class="grid md:grid-cols-3 gap-6 mt-12">
+            <div class="text-center">
+                <div class="text-3xl font-bold text-notion-black mb-2">3</div>
+                <div class="text-sm text-notion-gray">Languages Mastered</div>
             </div>
-            <div>
-                <h3 class="font-semibold text-notion-black text-lg">GDPR & CCPA compliant.</h3>
+            <div class="text-center">
+                <div class="text-3xl font-bold text-notion-black mb-2">2 Years</div>
+                <div class="text-sm text-notion-gray">Developing Formula 100</div>
             </div>
-        </div>
-
-        <div class="flex items-start gap-4">
-            <div class="w-12 h-12 flex-shrink-0">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="48" height="48" rx="8" fill="#E0F2FE"/>
-                     <rect x="14" y="14" width="20" height="20" rx="2" stroke="#0284C7" stroke-width="2" fill="white"/>
-                     <path d="M24 20V25" stroke="#0284C7" stroke-width="2" stroke-linecap="round"/>
-                     <circle cx="24" cy="28" r="1.5" fill="#0284C7"/>
-                </svg>
-            </div>
-            <div>
-                <h3 class="font-semibold text-notion-black text-lg">No training on your data.</h3>
+            <div class="text-center">
+                <div class="text-3xl font-bold text-notion-black mb-2">@_onmax</div>
+                <div class="text-sm text-notion-gray">Building in Public</div>
             </div>
         </div>
 
-        <div class="flex items-start gap-4">
-             <div class="w-12 h-12 flex-shrink-0">
-                <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <rect width="48" height="48" rx="8" fill="#E0F2FE"/>
-                    <path d="M14 14H34V34H14V14Z" stroke="#0284C7" stroke-width="2" fill="white"/>
-                    <path d="M20 24L23 27L29 21" stroke="#0284C7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <div class="mt-12">
+            <a href="https://twitter.com/_onmax" target="_blank" class="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 font-medium">
+                Follow the journey on X/Twitter
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                    <polyline points="12 5 19 12 12 19"></polyline>
                 </svg>
-            </div>
-            <div>
-                <h3 class="font-semibold text-notion-black text-lg">HIPAA and SOC 2 (Type 1) certified.</h3>
-            </div>
+            </a>
         </div>
     </div>
 </section>

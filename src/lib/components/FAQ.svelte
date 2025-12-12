@@ -1,14 +1,15 @@
 <script>
     const faqs = [
-        "Which email provider(s) are Notion Mail compatible with?",
-        "When will Notion Mail be available on mobile devices?",
-        "What languages are Notion Mail available in?",
-        "Can I manage multiple emails accounts on Notion Mail?",
-        "What are Notion Mail's security standards?"
+        "When will Formula 100 launch?",
+        "What Spanish level will I reach?",
+        "How much time do I need to commit daily?",
+        "Is there a mobile app?",
+        "What if I miss a day or fall behind?",
+        "Can I get a refund if it's not for me?"
     ];
 </script>
 
-<section class="max-w-[1200px] mx-auto px-4 py-20">
+<section id="faq" class="max-w-[1200px] mx-auto px-4 py-20">
     <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black mb-12">
         Questions & answers
     </h2>

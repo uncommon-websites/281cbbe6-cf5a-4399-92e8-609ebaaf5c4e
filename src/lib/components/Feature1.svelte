@@ -1,74 +1,97 @@
-<section class="max-w-[1000px] mx-auto px-4 py-20">
+<section id="features" class="max-w-[1000px] mx-auto px-4 py-20">
     <div class="flex flex-col md:flex-row justify-between items-start mb-12">
         <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black max-w-lg text-balance leading-[1.1]">
-            Every email organized, automatically.
+            One story. 86 conversations. Real fluency.
         </h2>
-        <!-- Stamps Illustration -->
+        <!-- Story Icons -->
         <div class="mt-8 md:mt-0 relative">
-             <!-- Bell Stamp -->
+             <!-- Book Icon -->
             <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#F59E0B" stroke-width="1.5" class="absolute -left-12 top-0 transform -rotate-12">
-                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
                 <rect x="1" y="1" width="22" height="22" rx="2" stroke-dasharray="2 2"></rect>
             </svg>
-            <!-- Envelope Stamp -->
+            <!-- Message Icon -->
              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#EF4444" stroke-width="1.5" class="absolute left-4 top-4 transform rotate-6 z-10 bg-white">
-                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
-                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
                  <rect x="1" y="1" width="22" height="22" rx="2" stroke-dasharray="2 2"></rect>
             </svg>
-             <!-- Blue Stamp -->
+             <!-- Coffee Icon -->
              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="#3B82F6" stroke-width="1.5" class="absolute left-20 -top-2 transform -rotate-6">
-                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                <path d="M18 8h1a4 4 0 0 1 0 8h-1"></path>
+                <path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path>
+                <line x1="6" y1="1" x2="6" y2="4"></line>
+                <line x1="10" y1="1" x2="10" y2="4"></line>
+                <line x1="14" y1="1" x2="14" y2="4"></line>
                  <rect x="1" y="1" width="22" height="22" rx="2" stroke-dasharray="2 2"></rect>
             </svg>
         </div>
     </div>
 
-    <div class="bg-[#F7F7F5] rounded-xl p-8 md:p-12 overflow-hidden relative min-h-[500px]">
-        <!-- Background UI -->
-        <div class="bg-white rounded-lg shadow-sm border border-gray-200 max-w-3xl mx-auto p-6 opacity-50 blur-[1px]">
-            <div class="flex items-center justify-between mb-6">
-                <div class="flex items-center gap-2 font-medium text-notion-black">
-                    <svg class="w-5 h-5 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                    Inbox
-                </div>
-                <div class="flex items-center gap-2 border border-gray-200 rounded px-2 py-1 text-sm">
-                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                    Auto label
-                </div>
-            </div>
-            <div class="space-y-4">
-                {#each [1, 2, 3, 4, 5] as i}
-                    <div class="flex items-center gap-4">
-                        <div class="w-24 h-3 bg-gray-100 rounded"></div>
-                        <div class="flex-1 h-3 bg-gray-100 rounded"></div>
+    <div class="bg-[#F7F7F5] rounded-xl p-8 md:p-12 overflow-hidden relative min-h-[500px] flex items-center justify-center">
+        <!-- Story Path Visual -->
+        <div class="max-w-2xl w-full">
+            <div class="bg-white rounded-xl shadow-xl border border-gray-200 p-6">
+                <div class="flex items-center gap-3 mb-6 pb-4 border-b border-gray-100">
+                    <div class="w-10 h-10 bg-primary-100 rounded-lg flex items-center justify-center">
+                        <span class="text-lg">☕</span>
                     </div>
-                {/each}
-            </div>
-        </div>
+                    <div>
+                        <h3 class="font-semibold text-notion-black">Chapter 7: Coffee Shop</h3>
+                        <p class="text-xs text-gray-500">Beginner • 12 minutes</p>
+                    </div>
+                </div>
+                
+                <div class="space-y-4">
+                    <div class="bg-gray-50 rounded-lg p-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
+                                <span class="text-sm font-medium">A</span>
+                            </div>
+                            <div>
+                                <p class="text-sm text-notion-black mb-1"><strong>Ana:</strong> "Buenos días. ¿Qué te gustaría tomar?"</p>
+                                <p class="text-xs text-gray-500 italic">Good morning. What would you like to have?</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-primary-50 rounded-lg p-4">
+                        <div class="flex items-start gap-3">
+                            <div class="w-8 h-8 rounded-full bg-primary-200 flex items-center justify-center flex-shrink-0">
+                                <span class="text-sm font-medium">You</span>
+                            </div>
+                            <div>
+                                <p class="text-sm text-notion-black mb-1"><strong>You:</strong> "Un café con leche, por favor."</p>
+                                <p class="text-xs text-gray-500 italic">A coffee with milk, please.</p>
+                            </div>
+                        </div>
+                    </div>
 
-        <!-- Foreground Popover -->
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full max-w-md bg-white rounded-xl shadow-2xl border border-gray-200 p-2 z-10">
-            <div class="px-3 py-2 text-xs font-medium text-gray-500">Suggested</div>
-            <div class="space-y-1">
-                <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
-                    <span class="text-sm text-notion-black">Documents that require my signature</span>
+                    <div class="flex items-center gap-2 text-sm text-gray-500">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                        </svg>
+                        <span>Listen • Repeat • Review</span>
+                    </div>
                 </div>
-                <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                    <span class="text-sm text-notion-black">Product feedback from customers</span>
+            </div>
+
+            <!-- Story Branches -->
+            <div class="mt-6 flex gap-3">
+                <div class="flex-1 bg-white rounded-lg p-4 border border-gray-200 text-center">
+                    <span class="text-sm text-notion-gray">🎌 Anime Festival</span>
                 </div>
-                <div class="flex items-start gap-3 p-2 hover:bg-gray-50 rounded cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-400 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                    <span class="text-sm text-notion-black">Travel bookings and confirmations</span>
+                <div class="flex-1 bg-white rounded-lg p-4 border border-gray-200 text-center">
+                    <span class="text-sm text-notion-gray">⚽ Football Match</span>
+                </div>
+                <div class="flex-1 bg-white rounded-lg p-4 border border-gray-200 text-center">
+                    <span class="text-sm text-notion-gray">🌃 Cyberpunk</span>
                 </div>
             </div>
         </div>
     </div>
 
     <p class="mt-8 text-lg text-notion-black max-w-2xl">
-        Tell Notion AI what types of emails are important to read, and it'll automatically label and sort them as they arrive.
+        Follow connected conversations across 86 episodes. Choose your path through coffee shops, anime festivals, and more. Every dialogue builds on the last.
     </p>
 </section>

@@ -1,98 +1,125 @@
-<section class="max-w-[1200px] mx-auto px-4 py-20">
+<section id="founder" class="max-w-[1200px] mx-auto px-4 py-20">
     <h2 class="text-4xl md:text-5xl font-bold tracking-tight text-notion-black mb-16 text-center">
-        Available anywhere, even offline.
+        Join the Founder Program
     </h2>
 
-    <div class="grid md:grid-cols-2 gap-8">
-        <!-- iOS -->
-        <div class="flex flex-col gap-6">
-            <div class="bg-[#F7F7F5] rounded-xl p-8 h-[400px] flex items-end justify-center overflow-hidden relative">
-                <!-- Phone Mockup -->
-                <div class="w-[280px] bg-black rounded-[40px] p-3 shadow-2xl relative -bottom-12 border-[6px] border-gray-800">
-                    <div class="bg-white rounded-[32px] overflow-hidden h-full min-h-[400px] relative">
-                        <!-- Notch -->
-                        <div class="absolute top-0 left-1/2 transform -translate-x-1/2 w-32 h-6 bg-black rounded-b-2xl z-20"></div>
-                        
-                        <!-- App UI -->
-                        <div class="pt-10 px-4 pb-4 bg-white h-full flex flex-col">
-                            <div class="flex justify-between items-center mb-4">
-                                <div class="font-bold text-lg">Inbox</div>
-                                <div class="text-gray-400 text-xs">9:12</div>
-                            </div>
-                            <div class="space-y-4">
-                                <div class="border-b border-gray-100 pb-3">
-                                    <div class="flex justify-between text-xs mb-1">
-                                        <span class="font-bold">Jordan</span>
-                                        <span class="text-gray-400">Now</span>
-                                    </div>
-                                    <div class="font-medium text-sm truncate">Finalizing Terms for your Funding Round</div>
-                                    <div class="text-xs text-gray-500 mt-1 truncate">We've outlined the final terms for your fund...</div>
-                                    <div class="mt-2 inline-block bg-blue-100 text-blue-700 text-[10px] px-1.5 py-0.5 rounded">Funding</div>
-                                </div>
-                                <div class="border-b border-gray-100 pb-3">
-                                    <div class="flex justify-between text-xs mb-1">
-                                        <span class="font-bold">Ricky, Jennie</span>
-                                        <span class="text-gray-400">15m</span>
-                                    </div>
-                                    <div class="font-medium text-sm truncate">Urgent: Hiring Decision Needed for Backend...</div>
-                                    <div class="text-xs text-gray-500 mt-1 truncate">We need to make a final call on the backend...</div>
-                                    <div class="mt-2 inline-block bg-purple-100 text-purple-700 text-[10px] px-1.5 py-0.5 rounded">Hiring</div>
-                                </div>
-                                 <div class="border-b border-gray-100 pb-3">
-                                    <div class="flex justify-between text-xs mb-1">
-                                        <span class="font-bold">Andrew, Jason</span>
-                                        <span class="text-gray-400">1h</span>
-                                    </div>
-                                    <div class="font-medium text-sm truncate">Excited to Apply for the Product Design...</div>
-                                    <div class="text-xs text-gray-500 mt-1 truncate">Hi team, just wanted to submit my applicati...</div>
-                                </div>
-                            </div>
-                        </div>
+    <div class="grid md:grid-cols-2 gap-12">
+        <!-- Left: Pricing Card -->
+        <div class="bg-white rounded-xl border-2 border-primary-600 p-8 shadow-xl">
+            <div class="mb-6">
+                <div class="inline-block bg-primary-100 text-primary-700 text-sm font-medium px-3 py-1 rounded-full mb-4">
+                    Limited Spots • 91% Off
+                </div>
+                <div class="flex items-baseline gap-2 mb-2">
+                    <span class="text-5xl font-bold text-notion-black">$10</span>
+                    <span class="text-gray-400 line-through">$110</span>
+                </div>
+                <p class="text-notion-gray">One-time payment • Lifetime access</p>
+            </div>
+
+            <div class="space-y-4 mb-8">
+                <div class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span class="text-notion-black">First access to alpha by November 2025</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span class="text-notion-black">Direct contact with creator Maxi</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span class="text-notion-black">Shape the product with your feedback</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span class="text-notion-black">Exclusive founder community access</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span class="text-notion-black">All 86 episodes + future content</span>
+                </div>
+                <div class="flex items-start gap-3">
+                    <svg class="w-5 h-5 text-green-600 flex-shrink-0 mt-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="20 6 9 17 4 12"></polyline>
+                    </svg>
+                    <span class="text-notion-black">30-day money-back guarantee</span>
+                </div>
+            </div>
+
+            <button class="w-full bg-notion-black text-white text-lg font-medium px-6 py-4 rounded-lg hover:bg-notion-gray transition-colors">
+                Join Founder Program
+            </button>
+
+            <p class="text-xs text-gray-500 text-center mt-4">
+                Payment processed via Stripe • Secure checkout
+            </p>
+        </div>
+
+        <!-- Right: What You Get -->
+        <div class="space-y-8">
+            <div>
+                <h3 class="text-2xl font-bold text-notion-black mb-4">What's included</h3>
+                <p class="text-notion-gray leading-relaxed mb-6">
+                    Get lifetime access to Formula 100's complete Spanish learning system. Start with the Founder cohort and help shape the future of the product.
+                </p>
+            </div>
+
+            <div class="bg-[#F7F7F5] rounded-lg p-6">
+                <div class="flex items-start gap-4 mb-4">
+                    <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="9" cy="7" r="4"></circle>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-notion-black mb-1">Founder Community</h4>
+                        <p class="text-sm text-notion-gray">Join 12+ founders already learning together. Share wins, ask questions, and get direct support from Maxi.</p>
                     </div>
                 </div>
             </div>
-            <div>
-                <h3 class="text-xl font-semibold text-notion-black mb-2">Email on the go with the iOS app.</h3>
-                <button class="bg-notion-black text-white text-sm font-medium px-4 py-2 rounded-[4px] hover:bg-notion-gray transition-colors flex items-center gap-2">
-                    Download for iOS
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                </button>
-            </div>
-        </div>
 
-        <!-- Mac -->
-        <div class="flex flex-col gap-6">
-            <div class="bg-[#F7F7F5] rounded-xl p-8 h-[400px] flex items-end justify-center overflow-hidden relative">
-                 <!-- Desktop Mockup -->
-                 <div class="w-[400px] bg-white rounded-t-lg shadow-2xl relative -bottom-8 border border-gray-200">
-                    <div class="h-6 bg-gray-100 border-b border-gray-200 flex items-center px-2 gap-1.5">
-                        <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
-                        <div class="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
-                        <div class="w-2.5 h-2.5 rounded-full bg-green-400"></div>
+            <div class="bg-[#F7F7F5] rounded-lg p-6">
+                <div class="flex items-start gap-4 mb-4">
+                    <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                        </svg>
                     </div>
-                    <div class="flex h-[300px]">
-                        <div class="w-32 border-r border-gray-200 bg-gray-50 p-2 space-y-2">
-                             <div class="h-2 w-16 bg-gray-200 rounded"></div>
-                             <div class="h-2 w-20 bg-gray-200 rounded"></div>
-                             <div class="h-2 w-12 bg-gray-200 rounded"></div>
-                        </div>
-                        <div class="flex-1 p-4">
-                             <div class="h-4 w-32 bg-gray-200 rounded mb-4"></div>
-                             <div class="space-y-2">
-                                 <div class="h-2 w-full bg-gray-100 rounded"></div>
-                                 <div class="h-2 w-full bg-gray-100 rounded"></div>
-                                 <div class="h-2 w-2/3 bg-gray-100 rounded"></div>
-                             </div>
-                        </div>
+                    <div>
+                        <h4 class="font-semibold text-notion-black mb-1">Direct Access to Maxi</h4>
+                        <p class="text-sm text-notion-gray">Get weekly updates on development and direct communication with the creator. Your feedback shapes the course.</p>
                     </div>
-                 </div>
+                </div>
             </div>
-            <div>
-                <h3 class="text-xl font-semibold text-notion-black mb-2">Email without distractions. Get the Mac App.</h3>
-                <button class="bg-notion-black text-white text-sm font-medium px-4 py-2 rounded-[4px] hover:bg-notion-gray transition-colors flex items-center gap-2">
-                    Download for macOS
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-                </button>
+
+            <div class="bg-[#F7F7F5] rounded-lg p-6">
+                <div class="flex items-start gap-4 mb-4">
+                    <div class="w-10 h-10 bg-primary-600 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold text-notion-black mb-1">Alpha Launch: November 2025</h4>
+                        <p class="text-sm text-notion-gray">Be the first to experience Formula 100. Dates may shift slightly as development progresses.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

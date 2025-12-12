@@ -2,24 +2,24 @@
     // Testimonials Component
     const testimonials = [
         {
-            name: "Camille Ricketts",
-            handle: "@camillericketts",
-            text: "Notion Mail let me create a system so customized to the way I work, my relationships, and my tone of voice that there's no way I could go back."
+            name: "Sarah Chen",
+            handle: "Early Founder",
+            text: "Finally, a Spanish course that doesn't feel like homework. The stories actually make me want to keep going every day."
         },
         {
-            name: "Aleks",
-            handle: "@aleksliving",
-            text: "OK: Notion Mail is pretty sick."
+            name: "Marcus Rodriguez",
+            handle: "Language Learner",
+            text: "I tried Duolingo for 6 months and barely progressed. Formula 100's story approach clicked immediately."
         },
         {
-            name: "Mike Majara",
-            handle: "@mikemajara",
-            text: "@NotionMail deserves every bit of hype it's getting. The switch from Gmail is just natural for power users."
+            name: "Emma Thompson",
+            handle: "Founder Program",
+            text: "The spaced repetition is genius. I'm actually remembering conversations, not just memorizing random words."
         },
         {
-            name: "Rohit Ghumare",
-            handle: "@ghumare64",
-            text: "With @NotionMail's AI, unwanted spam, updates, promotions... I can focus on essential emails."
+            name: "David Kim",
+            handle: "Beta Tester",
+            text: "Built by someone who actually learned languages this way. You can tell Maxi knows what works."
         }
     ];
 </script>

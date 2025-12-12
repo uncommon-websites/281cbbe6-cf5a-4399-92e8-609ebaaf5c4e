@@ -3,163 +3,91 @@
 </script>
 
 <section class="pt-20 pb-16 px-4 flex flex-col items-center text-center max-w-[1200px] mx-auto">
-    <!-- Paper Plane Icon -->
+    <!-- Spanish Learning Icon -->
     <div class="mb-8 relative">
-        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-notion-black w-20 h-20 transform -rotate-12">
-            <path d="M22 2L11 13"></path>
-            <path d="M22 2L15 22L11 13L2 9L22 2Z"></path>
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="text-notion-black w-20 h-20">
+            <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+            <path d="M2 17l10 5 10-5"></path>
+            <path d="M2 12l10 5 10-5"></path>
         </svg>
-        <!-- Dashed line trail - simplified -->
-        <div class="absolute right-full top-1/2 w-32 h-[2px] border-t-2 border-dashed border-gray-200 -translate-y-1/2 opacity-50 hidden md:block" style="transform: rotate(-10deg) translateX(-20px);"></div>
     </div>
 
     <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight text-notion-black mb-6 max-w-4xl text-balance leading-[1.1]">
-        The inbox that <br class="hidden md:block" /> thinks like you
+        Learn Spanish through <br class="hidden md:block" /> stories, not drills
     </h1>
 
     <p class="text-xl text-notion-gray max-w-2xl mb-10 text-balance leading-relaxed">
-        Meet Notion Mail, the inbox that organizes itself, drafts emails, and schedules meetings any way you'd like.
+        Master conversational Spanish in 100 days with story-driven dialogues and proven spaced repetition. Built by a native speaker who learned Swedish and German the same way.
     </p>
 
     <button class="bg-notion-black text-white text-lg font-medium px-6 py-3 rounded-[6px] hover:bg-notion-gray transition-colors mb-20">
-        Get Notion Mail free
+        Join Founder Program - $10
     </button>
 
-    <!-- UI Mockup -->
-    <div class="w-full bg-white rounded-xl shadow-2xl border border-gray-200 overflow-hidden flex text-left text-sm h-[600px] relative">
-        <!-- Sidebar -->
-        <div class="w-64 bg-[#F7F7F5] border-r border-gray-200 p-4 flex flex-col gap-6 hidden md:flex">
-            <div>
-                <div class="flex items-center gap-2 px-2 py-1 mb-2 text-gray-500">
-                    <div class="w-5 h-5 rounded-full bg-gray-300 flex items-center justify-center text-[10px] text-white font-bold">D</div>
-                    <span class="font-medium text-notion-black">Doru</span>
-                    <svg class="ml-auto w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path></svg>
+    <!-- Learning Journey Visual -->
+    <div class="w-full bg-[#F7F7F5] rounded-xl shadow-2xl border border-gray-200 overflow-hidden p-8 md:p-12">
+        <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <!-- Story-Driven -->
+            <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600">
+                        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                    </svg>
                 </div>
-                
-                <div class="relative">
-                    <svg class="absolute left-2 top-1.5 w-4 h-4 text-gray-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-                    <input type="text" placeholder="Search" class="w-full bg-transparent pl-8 pr-2 py-1 text-sm outline-none placeholder-gray-400">
-                </div>
+                <h3 class="font-semibold text-lg text-notion-black mb-2">86 Connected Stories</h3>
+                <p class="text-sm text-notion-gray">Follow branching narratives from coffee shops to anime festivals. Real conversations, not random phrases.</p>
             </div>
 
-            <div>
-                <div class="text-xs font-medium text-gray-500 px-2 mb-1">Views</div>
-                <div class="space-y-0.5">
-                    <div class="flex items-center gap-2 px-2 py-1 bg-white rounded shadow-sm text-notion-black font-medium">
-                        <svg class="w-4 h-4 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                        Inbox
-                    </div>
-                    <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <svg class="w-4 h-4 text-orange-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                        Calendar
-                    </div>
-                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <span class="w-4 h-4 flex items-center justify-center text-purple-500">💼</span>
-                        Hiring
-                    </div>
-                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <span class="w-4 h-4 flex items-center justify-center text-pink-500">❤️</span>
-                        Support
-                    </div>
-                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <span class="w-4 h-4 flex items-center justify-center text-blue-500">✈️</span>
-                        Travel
-                    </div>
-                     <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <span class="w-4 h-4 flex items-center justify-center text-green-500">📰</span>
-                        Newsletters
-                    </div>
+            <!-- Spaced Repetition -->
+            <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
                 </div>
+                <h3 class="font-semibold text-lg text-notion-black mb-2">Smart Spaced Repetition</h3>
+                <p class="text-sm text-notion-gray">Review exactly what you need, when you need it. Built-in system that adapts to your progress.</p>
             </div>
 
-             <div>
-                <div class="text-xs font-medium text-gray-500 px-2 mb-1">Mail</div>
-                <div class="space-y-0.5">
-                    <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-                        All mail
-                    </div>
-                    <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-                        Sent
-                    </div>
-                    <div class="flex items-center gap-2 px-2 py-1 text-gray-600 hover:bg-gray-200 rounded cursor-pointer">
-                         <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
-                        Drafts
-                    </div>
+            <!-- Audio-First -->
+            <div class="bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+                <div class="w-12 h-12 bg-primary-100 rounded-lg flex items-center justify-center mb-4">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="text-primary-600">
+                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon>
+                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"></path>
+                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"></path>
+                    </svg>
                 </div>
+                <h3 class="font-semibold text-lg text-notion-black mb-2">Audio-First Method</h3>
+                <p class="text-sm text-notion-gray">Listen first, speak sooner. The same method Maxi used to master Swedish and German.</p>
             </div>
         </div>
 
-        <!-- Main Content -->
-        <div class="flex-1 flex flex-col min-w-0 bg-white">
-            <div class="h-12 border-b border-gray-100 flex items-center px-6 justify-between">
-                <div class="flex items-center gap-2 font-medium text-notion-black">
-                    <svg class="w-4 h-4 text-red-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
-                    Inbox
-                </div>
-                <div class="flex items-center gap-3 text-gray-400">
-                    <div class="flex items-center gap-1 text-xs font-medium border border-gray-200 rounded px-2 py-1 text-gray-600">
-                        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-                        Auto Label
-                    </div>
-                </div>
+        <!-- Progress Bar Example -->
+        <div class="mt-12 max-w-3xl mx-auto bg-white rounded-lg p-6 shadow-sm border border-gray-100">
+            <div class="flex items-center justify-between mb-3">
+                <span class="text-sm font-medium text-notion-black">Your 100-Day Journey</span>
+                <span class="text-sm text-notion-gray">Day 23 of 100</span>
             </div>
-
-            <div class="flex-1 overflow-auto">
-                <table class="w-full text-left border-collapse">
-                    <thead class="text-gray-400 text-xs font-normal border-b border-gray-100">
-                        <tr>
-                            <th class="py-2 pl-6 pr-4 font-normal w-[25%]"></th>
-                            <th class="py-2 px-4 font-normal w-[50%]"></th>
-                            <th class="py-2 px-4 font-normal w-[25%]"></th>
-                        </tr>
-                    </thead>
-                    <tbody class="text-sm">
-                        {#each [
-                            { sender: "Andrew, Jason", subject: "Next steps", tag: "Hiring", color: "blue" },
-                            { sender: "Jack Steadman", subject: "Can't find log out button", tag: "", color: "" },
-                            { sender: "Bud, Stephanie", subject: "Product design role", tag: "Hiring", color: "blue" },
-                            { sender: "Natalie", subject: "Dark mode looks off", tag: "", color: "" },
-                            { sender: "Kosta B", subject: "Technical interview", tag: "Hiring", color: "blue" },
-                            { sender: "Sunny, Vaishnavi", subject: "Re: Coffee", tag: "Hiring", color: "blue" },
-                            { sender: "Enabled MD", subject: "Exciting new role", tag: "Hiring", color: "blue" },
-                            { sender: "Vicky Soara", subject: "Accelerating your IT", tag: "", color: "" },
-                            { sender: "CMYK Apparel", subject: "Free lunch?", tag: "", color: "" },
-                            { sender: "Michal Loutsa", subject: "Pending: Your input on project scope", tag: "Cold email", color: "orange" },
-                            { sender: "Finance Dept, Penny B", subject: "Expense report status", tag: "Cold email", color: "orange" },
-                            { sender: "Nan E. Lohra", subject: "Waiting for signed agreement", tag: "", color: "" },
-                        ] as email}
-                            <tr class="group hover:bg-gray-50 border-b border-gray-50 last:border-0 transition-colors">
-                                <td class="py-3 pl-6 pr-4 text-notion-black font-medium truncate">{email.sender}</td>
-                                <td class="py-3 px-4 text-gray-600 truncate">{email.subject}</td>
-                                <td class="py-3 px-4 text-right">
-                                    {#if email.tag}
-                                        <span class="inline-flex items-center px-1.5 py-0.5 rounded text-xs font-medium
-                                            {email.color === 'blue' ? 'bg-blue-100 text-blue-700' : ''}
-                                            {email.color === 'orange' ? 'bg-orange-100 text-orange-700' : ''}
-                                        ">
-                                            {email.tag}
-                                        </span>
-                                    {/if}
-                                </td>
-                            </tr>
-                        {/each}
-                    </tbody>
-                </table>
+            <div class="w-full bg-gray-200 rounded-full h-3 mb-4">
+                <div class="bg-primary-600 h-3 rounded-full" style="width: 23%"></div>
             </div>
-            
-            <!-- Floating Action Button -->
-            <div class="absolute bottom-8 right-8 bg-gray-100 hover:bg-gray-200 text-notion-black px-4 py-2 rounded-full shadow-lg border border-gray-200 flex items-center gap-2 cursor-pointer transition-all z-10">
-                Filter out cold emails
-                 <div class="w-8 h-8 bg-white rounded-full flex items-center justify-center border border-gray-200 ml-1">
-                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+            <div class="grid grid-cols-3 gap-4 text-center text-sm">
+                <div>
+                    <div class="font-bold text-2xl text-notion-black">23</div>
+                    <div class="text-gray-500">Episodes</div>
+                </div>
+                <div>
+                    <div class="font-bold text-2xl text-notion-black">487</div>
+                    <div class="text-gray-500">Words Learned</div>
+                </div>
+                <div>
+                    <div class="font-bold text-2xl text-notion-black">A1</div>
+                    <div class="text-gray-500">Current Level</div>
                 </div>
             </div>
-             <!-- Wand icon floating separately in screenshot? No, it looks like a button with an icon circle attached or overlapping -->
-             <!-- Actually looking at the screenshot, there is a "Filter out cold emails" button and then a separate circular button with a wand/sparkle icon below it or overlapping. -->
-             <!-- Let's adjust: The screenshot shows "Filter out cold emails" in a pill, and a sparkle icon button below/next to it. -->
-             <!-- Wait, looking closer at the crop 1: It's a pill "Filter out cold emails" and a separate circle button with a wand/sparkle. -->
         </div>
     </div>
 </section>

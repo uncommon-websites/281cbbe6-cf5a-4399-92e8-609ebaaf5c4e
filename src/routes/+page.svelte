@@ -12,7 +12,7 @@
 </script>
 
 <svelte:head>
-	<title>Notion Mail</title>
+	<title>Formula 100 - Learn Spanish Through Story-Driven Dialogues</title>
 </svelte:head>
 
 <Hero />
